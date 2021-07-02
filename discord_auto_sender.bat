@@ -17,6 +17,8 @@ set MESSAGE=This automated message was sent using a special script found here: h
 set TIMEOUT=10860
 
 :LOOP
+set /a r=%random%%%8+15
+set TIMEOUT3=%r%
 echo Message sent responded with:
 echo.
 
